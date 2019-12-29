@@ -1,0 +1,44 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: #ffe;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 600px;
+  border: none;
+  outline: none;
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 6em;
+  font-weight: bolder;
+  -webkit-transform: rotate(-10deg) skewX(20deg);
+          transform: rotate(-10deg) skewX(20deg);
+  color: #eee;
+  text-shadow: -1px 1px #333, -2px 2px #333, -3px 3px #333, -4px 4px #333, -5px 5px #333, -6px 6px #333, -7px 7px #333, -8px 8px #333, -9px 9px #333, -10px 10px #333, -11px 11px #333, -12px 12px #333, -20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  padding: 10px;
+  background: #323232;
+  color: #fff;
+  font-size: 11px;
+}
+/*# sourceMappingURL=style.css.map */
